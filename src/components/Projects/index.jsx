@@ -7,7 +7,7 @@ import ParaWriting from "../ParaWriting"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 
-import work1 from "../../assets/Images/Skinstric.png"
+import work1 from "../../assets/Images/SkinstricPic.png"
 import work2 from "../../assets/Images/PrimeClone.png"
 import work3 from "../../assets/Images/SpotifyClone.png"
 
