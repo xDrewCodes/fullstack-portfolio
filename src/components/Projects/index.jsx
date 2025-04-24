@@ -9,7 +9,7 @@ import { useInView } from "react-intersection-observer"
 
 import work1 from "../../assets/Images/SkinstricPic.png"
 import work2 from "../../assets/Images/PrimeClone.png"
-import work3 from "../../assets/Images/SpotifyClone.png"
+import work3 from "../../assets/Images/SpotifyPic.png"
 
 export default function Projects() {
   const controls = useAnimation()
