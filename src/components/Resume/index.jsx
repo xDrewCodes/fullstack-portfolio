@@ -75,7 +75,7 @@ export default function Resume() {
                 <a href="https://linkedin.com/in/drewallred" target="_blank" rel="noreferrer">
                   <Icon img={linkedinIcon} />
                 </a>
-                <a href="" target="_blank" rel="noreferrer">
+                <a href="../assets/Resume.pdf" download="Drew-Allred-Resume.pdf" target="_blank" rel="noreferrer">
                   <Icon img={fileIcon} />
                 </a>
               </motion.div>

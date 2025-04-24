@@ -27,33 +27,38 @@
 
 .workCard--body {
   position: relative;
+  height: 500px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .workCard--body img {
   display: block;
   margin: 0 auto;
   width: auto;
-  height: 500px;
+  height: 300px;
 }
 
 .workCard--body p {
   position: absolute;
   right: 0px;
-  bottom: 50px;
+  bottom: -40px;
   color: #fff;
   font-size: 18px;
   font-family: var(--NML);
   font-style: normal;
   font-weight: 500;
-  line-height: 140%; /* 25.2px */
+  line-height: 130%; /* 25.2px */
   opacity: 0.6;
   mix-blend-mode: hard-light;
-  max-width: 36ch;
+  max-width: 40ch;
 }
 
 .workCard--body h1 {
   position: absolute;
-  top: 80px;
+  top: 30px;
   color: #fff;
   font-size: 48px;
   font-style: normal;

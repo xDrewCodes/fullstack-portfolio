@@ -7,9 +7,9 @@ import ParaWriting from "../ParaWriting"
 import { motion, useAnimation } from "framer-motion"
 import { useInView } from "react-intersection-observer"
 
-import work1 from "../../assets/Images/work1.png"
-import work2 from "../../assets/Images/work2.png"
-import work3 from "../../assets/Images/work3.png"
+import work1 from "../../assets/Images/Skinstric.png"
+import work2 from "../../assets/Images/PrimeClone.png"
+import work3 from "../../assets/Images/SpotifyClone.png"
 
 export default function Projects() {
   const controls = useAnimation()
@@ -29,25 +29,25 @@ export default function Projects() {
 
   const works = [
     {
-      client: "client name",
-      year: "2023",
+      client: "Skinstric AI",
+      year: "2025",
       img: work1,
-      title: "Revamping Global Lifestyle Brand.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "New-Age Skin Care Solutions.",
+      detail: "A modern, innovative, real-time skin analysis platform, powered by the OpenAI Vision API and Next.js, among other modern technologies. The platform offers a seamless user experience, and instant skin analaysis.",
     },
     {
-      client: "client name",
-      year: "2023",
+      client: "Prime Clone",
+      year: "2025",
       img: work2,
-      title: "Next generation Web Management System.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "Modern Redesign of a top streaming platform.",
+      detail: "Developed a scalable movie search platform using React, with full API integration, loading states, and dynamic routing for individual movie pages. Complete with responsive UI to ensure performance across devices.",
     },
     {
-      client: "client name",
-      year: "2023",
+      client: "Spotify Clone",
+      year: "2024",
       img: work3,
-      title: "Share your Life Stories. Generationally.",
-      detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      title: "A pixel-for-pixel recreation of spotify",
+      detail: "Developed Spotify’s desktop UI from scratch with an emphasis on structure, layout precision, and design consistency. Built an intuitive UI with search page and modular components, following Spotify’s real-world design.",
     },
   ]
 
