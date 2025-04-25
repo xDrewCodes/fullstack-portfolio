@@ -14,7 +14,7 @@ const Alert = ({ isVisible, text, variant = "success" }) => {
       {isVisible && (
         <motion.div className="alert" initial="initial" animate="animate" exit="exit" style={{ backgroundColor: `${variant === "success" ? "green" : "red"}` }} transition={{ duration: 1 }} variants={translateVariants}>
           <p>{text}</p>
-        </motion.div>
+        </motion.div> 
       )}
     </AnimatePresence>
   )
