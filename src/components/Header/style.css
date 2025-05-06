@@ -243,3 +243,10 @@ header .header--bottom p {
     align-items: center;
   }
 }
+
+
+@media (max-width: 480px) {
+  header {
+    height: 120vh;
+  }
+}

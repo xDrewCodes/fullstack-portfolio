@@ -99,3 +99,9 @@
     font-size: 14px;
   }
 }
+
+@media (max-width: 480px) {
+  .workCard--body h1, p{
+    text-align: center;
+  }
+}

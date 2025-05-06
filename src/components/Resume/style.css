@@ -155,3 +155,19 @@
     gap: 30px;
   }
 }
+
+
+@media (max-width: 480px) {
+  .resume--grid--detail {
+    align-items: center;;
+  }
+
+  .resume--grid--detail * {
+    text-align: center;
+    align-self: center;
+  }
+
+  .resume--grid--experience--head {
+    text-align: center;
+  }
+}
