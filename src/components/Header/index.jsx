@@ -89,25 +89,20 @@ export default function Header() {
         </h3>
       </motion.div>
 
-      <motion.div initial="hidden" animate={controls} variants={blurVariants} transition={{ duration: 1, delay: 4 }} className="header--bottom">
-        <div>
-          <h3>
-            <ScrambleText shuffle delay={4}>
-              intro
-            </ScrambleText>{" "}
-            <span className="header--hash">{"//"}</span>
-          </h3>
-          <p className="theme--detail">
-            <ScrambleText shuffle delay={4}>
-              Hi, I'm Drew, I tackle complex engineering challenges daily, alongside a team of elite software engineers. My mission is to continuously advance in web development, using my growing expertise to drive societal progress through technology.
-            </ScrambleText>
-          </p>
-        </div>
-
-        <h3>
-          <Time delay={4.0} />
-        </h3>
-      </motion.div>
+      <h1 className="header--name">
+        <TextWriting controls={controls} text={"Drew Allred"} noblink />
+        <br />
+        <TextWriting controls={controls} delay={1.65} text={"Frontend"} noblink />{" "}
+        <motion.div initial="hidden" animate={controls} variants={nameVariants} className="header--name--sec">
+          <TextWriting controls={controls} delay={2.85} text={"Developer"} noblink />
+          <div className="header--name--border">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </motion.div>
+      </h1>
 
       <motion.div initial="hidden" animate={controls} variants={blurVariants} transition={{ duration: 1, delay: 4.5 }} className="header--center" onAnimationComplete={() => handleComplete()}>
         <a href="#contact" className="connect--button">
@@ -129,20 +124,26 @@ export default function Header() {
         <video src={headerVideo} autoPlay loop muted></video>
       </motion.div>
 
-      <h1 className="header--name">
-        <TextWriting controls={controls} text={"Drew Allred"} noblink />
-        <br />
-        <TextWriting controls={controls} delay={1.65} text={"Frontend"} noblink />{" "}
-        <motion.div initial="hidden" animate={controls} variants={nameVariants} className="header--name--sec">
-          <TextWriting controls={controls} delay={2.85} text={"Developer"} noblink />
-          <div className="header--name--border">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </motion.div>
-      </h1>
+      <motion.div initial="hidden" animate={controls} variants={blurVariants} transition={{ duration: 1, delay: 4 }} className="header--bottom">
+        <div>
+          <h3>
+            <ScrambleText shuffle delay={4}>
+              intro
+            </ScrambleText>{" "}
+            <span className="header--hash">{"//"}</span>
+          </h3>
+          <p className="theme--detail">
+            <ScrambleText shuffle delay={4}>
+              Hi, I'm Drew, I tackle complex engineering challenges daily, alongside a team of elite software engineers. My mission is to continuously advance in web development, using my growing expertise to drive societal progress through technology.
+            </ScrambleText>
+          </p>
+        </div>
+
+        <h3>
+          <Time delay={4.0} />
+        </h3>
+      </motion.div>
+
     </header>
   )
 }

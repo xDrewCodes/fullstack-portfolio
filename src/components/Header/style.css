@@ -246,7 +246,44 @@ header .header--bottom p {
 
 
 @media (max-width: 480px) {
+
   header {
-    height: 120vh;
+    height: fit-content;
   }
+
+  .header--bottom {
+    bottom: 0px;
+    margin: 0;
+    position: relative;
+  }
+
+  .header--bottom h3 {
+    text-align: center;
+  }
+
+  .header--video {
+    position: relative;
+  }
+  
+  .header--video video {
+    margin: 0;
+  }
+
+  .header--name {
+    margin-top: 25%;
+    position: relative;
+  }
+
+  .header--center {
+    position: relative;
+  }
+
+  .header--hash {
+    display: none;
+  }
+
+  .header--top a {
+    margin: 0 5px;
+  }
+
 }

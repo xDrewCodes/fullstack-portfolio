@@ -56,3 +56,13 @@
     padding-left: 20px;
   }
 }
+
+
+@media (max-width: 480px) {
+
+  .resumeCard--body--left,
+  .resumeCard--body--right {
+    text-align: center;
+  }
+
+}

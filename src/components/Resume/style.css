@@ -159,7 +159,8 @@
 
 @media (max-width: 480px) {
   .resume--grid--detail {
-    align-items: center;;
+    align-items: center;
+    width: calc(100% - 20px);
   }
 
   .resume--grid--detail * {
@@ -170,4 +171,9 @@
   .resume--grid--experience--head {
     text-align: center;
   }
+
+  .resume--grid--experience--body h4 {
+    text-align: center;
+  }
+
 }
